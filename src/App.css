@@ -1,0 +1,96 @@
+.app {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #111;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.inputs {
+  margin-top: 20px;
+}
+
+.inputs h2 {
+  margin: 0 0 10px 0;
+  font-size: 20px;
+}
+
+.inputs div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+label span {
+  cursor: help;
+  color: #aaa;
+  margin-left: 5px;
+}
+
+input {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 8px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button:first-child {
+  background-color: blue;
+  color: white;
+}
+
+button:last-child {
+  background-color: #555;
+  color: white;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+.result h2 {
+  margin: 0 0 10px 0;
+  font-size: 20px;
+}
+
+.result p {
+  margin: 5px 0;
+}
